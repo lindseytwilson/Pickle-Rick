@@ -31,15 +31,15 @@ I had to change python to by python3, change the ip address to my kali machine i
 
 ![which python](https://github.com/lindseytwilson/Pickle-Rick/blob/main/Images/Which%20Python.png)
 
-###Ingredient 1
+### Ingredient 1
 I started a netcat listener on port 9001 and then concatenated the Sup3rS3cretPickl3Ingred.txt file. This showed that the first ingredient needed is mr. meeseek hair
 ![ingredient 1](https://github.com/lindseytwilson/Pickle-Rick/blob/main/Images/Ingredient%201.png)
 
-###Ingredient 2
+### Ingredient 2
 To find ingredient 2 I went to the root directory, ran an ls, went into the home directory, then into user rick, and ran a ls on the second ingredients file to find that the second ingredient is jerry tear.
 ![ingredient 2](https://github.com/lindseytwilson/Pickle-Rick/blob/main/Images/Ingredient%202.png)
 
-###Ingredient 3
+### Ingredient 3
 The final ingredient appears to be in the root folder, which I do not have access to. Running a sudo -l shows that all commands can be run without needing a password.
 Running sudo bash -i allows me to run a super user shell to move into the root folder. Once in the root folder I was able to run a ls and cat the 3rd.txt file, showing the final ingredient is fleeb juice.
 ![moving to root](https://github.com/lindseytwilson/Pickle-Rick/blob/main/Images/Move%20to%20Root.png)
