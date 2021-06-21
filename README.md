@@ -7,7 +7,6 @@ The first step I took was going to the webpage and view the page source to see i
 
 Website
 ![website](https://github.com/lindseytwilson/Pickle-Rick/blob/main/Images/Webpage.png)
-![page source](https://github.com/lindseytwilson/Pickle-Rick/blob/main/Images/Page%20Source.png)
 
 The username shown was: R1ckRul3s
 Username
